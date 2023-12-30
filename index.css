@@ -165,6 +165,10 @@ header {
   transition-delay: 0.2s;
 }
 
+.content h3{
+  color: black;
+}
+
 footer{
   background: #000;
   height: 400px;
