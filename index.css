@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 img {
   width: 100%;
@@ -55,8 +56,19 @@ header {
   height: 100px;
 }
 
-footer {
-  background: #000;
-  height: 200px;
-  width: 100%;
+footer{
+    background: #000;
+    height: 200px;
+    width: 100%;
+    padding: 20px 30px 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .left{
+
+}
+footer .right{
+
 }
