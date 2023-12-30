@@ -43,17 +43,71 @@ header {
 
 footer{
     background: #000;
-    height: 200px;
+    height: 400px;
     width: 100%;
-    padding: 20px 30px 20px 30px;
+    padding: 60px 40px 60px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+footer .left{
+    width: 50%;
+}
+footer .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.box{
+
+}
+footer .right h1{
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 10px;
+
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    width: 60%;
+}
+.icon_bg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #000;
+}
+.icon_bg img{
+    width: 100%;
+}
+.icon_bg :hover{
+    background-color: #fff;
+    transition: .3s all linear;
+}
+footer .left .boxs {
+    width:200px ;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-footer .left{
-
+.loc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
 }
-footer .right{
+.loc img{
+    width:30px;
+height: 30px;
+}
+.loc h3{
 
 }
