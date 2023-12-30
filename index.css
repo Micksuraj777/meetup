@@ -255,3 +255,19 @@ height: 30px;
   font-size: 20px;
 }
 
+#placement .companies{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  margin-top: 50px;
+}
+#placement .companies img{
+  width: 200px;
+  height: 100px;
+  border-radius: 10px;
+
+}
+
+
