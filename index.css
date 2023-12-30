@@ -17,4 +17,12 @@ footer{
     background: #000;
     height: 200px;
     width: 100%;
+    padding: 20px 30px 20px 30px;
+}
+
+footer .left{
+
+}
+footer .right{
+
 }
