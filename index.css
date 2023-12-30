@@ -83,10 +83,13 @@ a {
 
 .navbar nav a {
   padding: 10px 20px;
-  border-radius: 10px;
+  border-radius: 15px;
   background: rgb(135, 134, 134);
   color: black;
-  font-size: 20px;
+  font-size: 15px;
+}
+.navbar nav a:hover{
+  background: rgb(193, 193, 193);
 }
 header {
   width: 100%;
@@ -247,11 +250,15 @@ height: 30px;
 }
 
 #placement{
-  background-color: rgb(65, 87, 90);
+  background-image: url('./images/placement.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(54, 53, 53, 0.5);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  color: white;
 }
 #placement p{
   width: 90%;
